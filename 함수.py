@@ -11,3 +11,4 @@ def chat(name1, name2, age):
     return result
     d = dsum(2, 4)
     print(d)
+    print("test")
