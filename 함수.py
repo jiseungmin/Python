@@ -6,9 +6,11 @@ def chat(name1, name2, age):
   chat("엘리스", "율하", 10)
   chat("철수", "영희", 30)
 
-  def dsum(a,b):
-    result = a + b
-    return result
-    d = dsum(2, 4)
-    print(d)
-    print("test")
+def dsum(a,b):
+  result = a + b
+  return result
+  d = dsum(2, 4)
+  print(d)
+  print("test")
+
+
