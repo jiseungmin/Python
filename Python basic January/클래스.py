@@ -28,3 +28,5 @@ wonie.introduce()
 jenny.introduce() # police 클래스가 person 클래스를 상속 받았기 때문에 사용 가능
 jenny.arrest("tony")
 tony.program("인공지능")
+
+

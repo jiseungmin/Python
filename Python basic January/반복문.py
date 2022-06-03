@@ -11,5 +11,6 @@ for i in range(3): # i는 변수
     print( "머해?")
     print("그냥있어") 
     i = i+1
+    
 
   
