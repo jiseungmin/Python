@@ -1,7 +1,8 @@
+# Math 함수 및 랜덤 함수
 from random import *
 from math import *
 print(abs(-5))  # 절댓값
-print(pow(4, 2))  # 4^2 16
+print(pow(4, 2))  # 4^2=16
 print(max(5, 12))  # 5하고 12 중 제일 큰값
 print(min(5, 12))  # 5하고 12 중 제일 작은 값
 print(round(3.15))  # 3 반올림

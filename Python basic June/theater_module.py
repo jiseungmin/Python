@@ -7,4 +7,4 @@ def monning_price(people):
 
 
 def solider_price(people):
-    print("{}명의 영화표 군인 구매 비용은 {}입니다.".format(people, people*4000))
+    print("{}명의 영화표 군인 구매 비용은 {}입니다.".format(people, people*3000))

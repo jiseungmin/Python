@@ -26,7 +26,7 @@ def std_weight(height, gender):
     elif gender == "여자":
         weight = height/100 * height/100 * 21
 
-    print("키{}cm 남자의 표준 체중은 {}kg 입니다.".format(height, round(weight, 2)))
+    print("키{}cm 남자의 표준 체중은 {:.2f}kg 입니다.".format(height, weight))
 
 
 std_weight(175, "남자")

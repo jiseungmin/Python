@@ -54,7 +54,7 @@ gun = 10
 
 
 def checkpoint(soldiers):
-    global gun
+    global gun  # global 전역변수 이용 가능
     gun = gun - soldiers
     print("총기함에 있는 총은 {}개 입니다.".format(gun))
 

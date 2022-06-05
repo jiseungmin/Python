@@ -1,14 +1,16 @@
 # 표준 출력
-print("python", "java", sep=",")  # sep = "," 출력값 빈공간을 ,로
+print("python", "java", sep=",")  # sep = "," 출력값 빈공간을 ,으로 나눠줌
 
 score = {"수학": 0, "영어": 50, "과학": 20}
 for subject, score in score.items():
     # ljust 우측정렬 후 오른쪽으로 빈공간 8개 생성, rjust 왼쪽정렬 후 왼쪽으로 빈공간 4개 생성
     print(subject.ljust(8), str(score).rjust(4), sep=":")
 
+
 # 은행 대기 순번표 001, 002 , 003
 for num in range(1, 21):
     print("대기번호 : " + str(num).zfill(3))  # zfill(3) 000으로 채윰
+
 
 # 출력 포맷
 

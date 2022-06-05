@@ -1,8 +1,7 @@
+import pickle
 # 파일 입출력
 
 # 파일 입력
-
-import pickle
 socre_file = open("score.txt", "w", encoding="utf8")
 print("수학 : 0", file=socre_file)
 print("영어: 50", file=socre_file)
