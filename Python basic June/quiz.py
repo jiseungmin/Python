@@ -39,3 +39,29 @@ for i in range(1, 51):
     print("이름 :", file=file)
     print("업무 요약 :", file=file)
     file.close()
+
+
+class house:
+    def __init__(self, location, house_type, price, deal_type, complication_year):
+        self.location = location
+        self.house_type = house_type
+        self.deal_type = deal_type
+        self.price = price
+        self.comlication_year = complication_year
+
+    def show_detail(self):
+        print(self.location, self.house_type,
+              self.deal_type, self.price, self.comlication_year)
+
+
+h1 = house("강남", "아파트", "매매", "10억", "2017년")
+h2 = house("마포", "주택", "전세", "7억", "2012년")
+h3 = house("송파", "빌라", "매매", "50억", "2010년")
+home = []
+home.append(h1)
+home.append(h2)
+home.append(h3)
+
+print("총 {}개의 집이 있습니다.".format(len(home)))
+for homes in home:
+    homes.show_detail()
