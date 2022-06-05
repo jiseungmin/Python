@@ -30,3 +30,12 @@ def std_weight(height, gender):
 
 
 std_weight(175, "남자")
+
+
+for i in range(1, 51):
+    file = open("{}주차.txt".format(i), "w", encoding="utf8")
+    print("-{} 주자 중간보고-".format(i), file=file)
+    print("부서 : ", file=file)
+    print("이름 :", file=file)
+    print("업무 요약 :", file=file)
+    file.close()
