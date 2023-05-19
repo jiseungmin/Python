@@ -1,7 +1,7 @@
 class unit:
     # class를 생성하고 초기화하기 위함 init 함수를 선언하고 인자값을 넣어주어 변수선언 ex)marin,tank
     def __init__(self, name, hp, damage):
-        self.name = name
+        self.name = name  # self 초기화
         self.hp = hp
         self.damage = damage
         print("{}유닛이 생성되었습니다.".format(name))
@@ -25,6 +25,7 @@ marin.damaged(25)
 marin.damaged(25)
 #vicon = "사람"
 # vicon.attack("5시") # class 생성자로 생성 안된 변수는 class안 메소드 사용불가
+
 tank = unit("탱크", 150, 50)
 
 wraith1 = unit("레이스", 80, 10)

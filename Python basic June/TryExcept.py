@@ -1,7 +1,7 @@
 try:
     print("나누기 계산기 입니다.")
-    a = int(input("숫자를 입력해주세요"))
-    b = int(input("숫자를 입력해주세요"))
+    a = int(input("숫자를 입력해주세요."))
+    b = int(input("숫자를 입력해주세요."))
     if a > 10 or b > 10:
         raise ValueError  # 에러 발생시키기
     print("값은 {}입니다.".format(a/b))

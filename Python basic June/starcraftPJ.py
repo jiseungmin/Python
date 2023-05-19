@@ -147,7 +147,7 @@ for units in attack_units:
 
 # 전군 피해
 for units in attack_units:
-    units.damaged(randint(30, 300))
+    units.damaged(randint(30, 200))
 
 # 게임 종료
 gameover()

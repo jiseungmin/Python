@@ -11,7 +11,7 @@ class fltable:
 
 class flyunit(fltable, unit):
     def __init__(self, speed):
-        # super().__init__()  # 슈퍼는 상속받은 앞자리 fltable만 쓸수있음.
+        # super().__init__()  # 슈퍼는 상속받은 앞자리인 fltable만 쓸수있음
         unit.__init__(self, speed)  # 다중 상속은 이렇게 정의 가능
         fltable.__init__(self)
 

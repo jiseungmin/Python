@@ -16,7 +16,7 @@ subway.pop()  # 리스트 뒤에 부터 삭제
 print(subway)
 
 subway.append("유재석")
-print(subway.count("유재석"))  # 유재석 갯수
+print(subway.count("유재석"))  # 유재석이 몇개있는지
 
 mid = [1, 42, 3, 41, 2]
 mid.sort()  # 정렬

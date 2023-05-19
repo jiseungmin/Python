@@ -52,7 +52,7 @@ class flyingAttackunit(attackunit, flyable):  # 다중 상속
 
     def move(self, location):
         print("[공중유닛이동]")
-        # 오버라이딩 부모 클래스의 메소드를, 자식 클래스에서 재정의 하여 사용하는 것을 의미한다.
+        # 오버라이딩 부모 클래스의 메소드를, 자식 클래스에서 재정의 하여 사용하는 것을 의미한다
         self.flying(self.name, location)
 
 
